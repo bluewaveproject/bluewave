@@ -12,8 +12,8 @@ The source code featured here may not 100% perfect. Due to the transfer process 
 
 Made in The Philippines 🇵🇭
 
-![oceandsktop](https://github.com/bluewaveproject/bluewave/images/ocean_new.png)
-![riverdsktop](https://github.com/bluewaveproject/bluewave/images/river_new.png)
+![oceandsktop](https://github.com/bluewaveproject/bluewave/main/images/ocean_new.png)
+![riverdsktop](https://github.com/bluewaveproject/bluewave/main/images/river_new.png)
 
 
 Download link to ISOs:
