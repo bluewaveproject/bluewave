@@ -1,5 +1,5 @@
 # bluewave
-Blue Wave is an Arch-based Linux distribusion, with the sole focus of making Linux simple and easy to use. It provides three different versions made for different user preferences.
+Blue Wave is an Arch-based Linux distribusion, with the sole focus of making Linux simple and easy to use. It provides two different versions made for different user preferences.
 
 NOTES:
 
