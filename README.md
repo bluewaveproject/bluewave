@@ -18,6 +18,4 @@ Made in The Philippines 🇵🇭
 
 Download link to ISOs:
 
-Cu1rrent: https://tinyurl.com/202305bluewave1
-
-Legacy (outdated, not maintained): https://bit.ly/3yfBNf8
+Cu1rrent: https://icedrive.net/s/Vyt5zf7TGvVh6wRRZjWB1WzG9ia9
