@@ -8,7 +8,6 @@ Go to https://gitlab.com/bluewaveproject/bluewave/-/wikis to read the wiki/guide
 
 contains some code from arch linux gui so thanks to them. their github is this: https://github.com/arch-linux-gui
 
-The source code featured here may not 100% perfect. Due to the transfer process from GitHub to GitLab, it imported the old February 2023 release. (Why? I don't know.)
 
 Made in The Philippines 🇵🇭
 
@@ -18,4 +17,4 @@ Made in The Philippines 🇵🇭
 
 Download link to ISOs:
 
-Cu1rrent: https://icedrive.net/s/Vyt5zf7TGvVh6wRRZjWB1WzG9ia9
+Current: https://icedrive.net/s/Vyt5zf7TGvVh6wRRZjWB1WzG9ia9
