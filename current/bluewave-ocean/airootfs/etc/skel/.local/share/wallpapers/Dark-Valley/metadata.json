@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "zayronxio.gm@gmail.com",
+                "Name": "zayronxio"
+            }
+        ],
+        "Id": "Dark-Valley",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Dark-Valley",
+        "Name[es]": "Valle-Oscuro",
+        "Name[zh_CN]": "雅鲁山",
+        "Name[x-test]": "xxDark-Valleyxx"
+        },
+        "X-KDE-PlasmaImageWallpaper-AccentColor": {
+        "Dark": "#e9736f",
+        "Light": "#e9736f"
+        }
+    }
+

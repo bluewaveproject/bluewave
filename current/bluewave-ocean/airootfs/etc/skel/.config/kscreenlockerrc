@@ -1,0 +1,4 @@
+[Greeter][Wallpaper][org.kde.image][General]
+Image=/usr/share/blwvwall/defaultwall.png
+PreviewImage=/usr/share/blwvwall/defaultwall.png
+SlidePaths=/home/bluewave/.local/share/wallpapers/,/usr/share/wallpapers/

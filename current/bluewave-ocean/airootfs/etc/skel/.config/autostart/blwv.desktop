@@ -1,0 +1,14 @@
+[Desktop Entry]
+Comment=Starts up at the very first login.
+Exec=python /etc/blwv_hub.py
+GenericName=Blue Wave Hub (GTK)
+Icon=/usr/share/pixmaps/bluewave-logo.png
+Name=Blue Wave Hub (GTK)
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

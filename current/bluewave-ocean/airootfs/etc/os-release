@@ -1,0 +1,10 @@
+NAME="Blue Wave Ocean"
+PRETTY_NAME="Blue Wave Ocean"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/RisingYT/bluewave/"
+DOCUMENTATION_URL="https://github.com/RisingYT/bluewave/"
+SUPPORT_URL="https://github.com/RisingYT/bluewave/issues/"
+BUG_REPORT_URL="https://github.com/RisingYT/bluewave/issues/"
+LOGO=bluewave-logo

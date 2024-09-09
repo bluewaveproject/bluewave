@@ -1,0 +1,1 @@
+This is a file that was made to avoid deletion of the var folder altogether.

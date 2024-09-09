@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="0" last-seen="1693607981"/>
+    <application id="org.gnome.Extensions.desktop" score="16" last-seen="1693608096"/>
+    <application id="org.gnome.Settings.desktop" score="0" last-seen="1693608817"/>
+    <application id="org.gnome.Console.desktop" score="13" last-seen="1693608950"/>
+    <application id="gnome-system-monitor.desktop" score="0" last-seen="1693607686"/>
+    <application id="engrampa.desktop" score="4" last-seen="1693607979"/>
+    <application id="org.gnome.Music.desktop" score="1" last-seen="1693608143"/>
+    <application id="brave-browser.desktop" score="91" last-seen="1693608925"/>
+    <application id="Alacritty.desktop" score="64" last-seen="1693608811"/>
+    <application id="org.gnome.TextEditor.desktop" score="2" last-seen="1693608744"/>
+    <application id="org.xfce.mousepad.desktop" score="4" last-seen="1693608786"/>
+  </context>
+</application-state>

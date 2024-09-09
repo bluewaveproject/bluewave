@@ -1,0 +1,4 @@
+#!/bin/fish
+cd /etc/.ohlookasecret/sounds
+mpv startsnd.mp3
+exit

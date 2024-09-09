@@ -1,0 +1,37 @@
+{
+   "description": "A minimal theme based off the Nord color scheme.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnoIIhU4n1GXLp7j8hyfkbkqZCdll6+ElWQfLfs4T4lLAFgqQIAEESVqd1XToorkABUh2OjCWUYADmMmXerxeXIBNeZuoqs3rhs+7lbaH2kGPSJzYZluUnlVjQV54XraFld0pJRsqAYqYMJ4bB7c/HBoWFYh2YMcLTdz0CLgExLCEjHJcN5FvzNRDgE7gMcBTzsRHIDNctLSMf0Zg2UgMupy+amyKWeRIpybedmQjOMNfkdSiDhy20lQAnNWu1nBmC40L9N9ZnBEJvqAqSZUa8c3SwXGtfdRqIitLpU+QE3T5pLaeq1fVTs0iCdC64/LoikP/H9XZW9lOzNmr9LlY6wIDAQAB",
+   "manifest_version": 2,
+   "name": "Material Nord",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 217, 222, 232 ],
+         "button_background": [ 230, 233, 239, 0 ],
+         "frame": [ 47, 52, 62 ],
+         "ntp_background": [ 0, 0, 0 ],
+         "ntp_text": [ 236, 239, 244 ],
+         "tab_background_text": [ 217, 222, 232 ],
+         "tab_text": [ 236, 239, 244 ],
+         "toolbar": [ 78, 86, 104 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "center",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "buttons": [ 0, 0, 0.75 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

@@ -1,0 +1,4 @@
+#!/bin/fish
+cd /etc/.ohlookasecret/sounds
+mpv lgoutmsc.mp3
+exit

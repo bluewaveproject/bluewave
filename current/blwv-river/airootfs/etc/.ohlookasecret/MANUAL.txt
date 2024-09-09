@@ -1,0 +1,25 @@
+---  BLUE WAVE RIVER ---
+
+Welcome to "Blue Wave", specifically the River version. As mentioned during the installation process, this is the standard version of Blue Wave.
+This serves as the documentation for the operating system. It will provide a simplisttic explanation on what you need to know.
+
+-- SECTION 1: SOFTWARE --
+Since this is now Linux and not Windows, you'd no longer use your usual programs from over there. Not exactly.
+Wine provides support for (most) Windows apps. It serves as a compatibility layer of sorts.
+Note that it is not perfect. Some programs may have bugs or some might not work at all. But for the most part it would work.
+
+-- SECTION 2: INSTALLING PACKAGES --
+Instead of searching the web for the right installation file, Linux has "package managers". 
+Although you might think that the only way to install packages/software is to do so from the command line... 
+Well, the answer is a no. Blue Wave River provides Bauh by default.
+It is used to install, upgrade, remove packages. Think of it as something similar to the Microsoft Store or Apple's App Store.
+
+-- SECTION 3: USING EXT4 OR XFS AS THE DEFAULT FILESYSTEM --
+This would be a rare occurence because anyone doing the installation process would just stick to the default filesystem (BTRFS).
+But for those folks who aren't using BTRFS. You wouldn't really notice that much of a difference...
+The only thing different is that automatic snapshots do not work while upgrading. Why?
+Because only BTRFS supports it. That's it.
+
+-- END --
+Well, that's all you really need to know. Again, thank you for choosing Blue Wave.
+

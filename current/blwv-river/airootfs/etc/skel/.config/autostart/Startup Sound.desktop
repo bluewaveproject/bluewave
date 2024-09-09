@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Startup Sound
+Comment=Well, you get the idea.
+Exec=start

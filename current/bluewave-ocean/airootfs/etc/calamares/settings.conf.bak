@@ -1,0 +1,59 @@
+#Arch-Linux-GUI Calamares settings configuration file
+
+ # Configuration file for Calamares
+# Syntax is YAML 1.2
+---
+
+modules-search: [ local ]
+
+instances:
+- id:       remove-livecd
+  module:   shellprocess
+  config:   shellprocess-remove-livecd.conf
+- id:       removethestuff
+  module:   shellprocess
+  config:   shellprocess-removethestuff.conf
+
+sequence:
+- show:
+  - welcome
+  - locale
+  - keyboard
+  - partition
+  - users
+  - summary
+- exec:
+  - partition
+  - mount
+  - unpackfs
+  - machineid
+  - fstab
+  - locale
+  - keyboard
+  - localecfg
+  - luksbootkeyfile
+  - luksopenswaphookcfg
+   - initcpio
+  - removeuser
+  - users
+  - packages
+  - networkcfg
+  - hwclock
+  - displaymanager
+  - grubcfg
+  - bootloader
+  - shellprocess@removethestuff
+  - shellprocess@remove-livecd
+- show:
+  - finished
+
+
+branding: bluewave
+
+prompt-install: false
+
+dont-chroot: false
+
+disable-cancel: false
+
+disable-cancel-during-exec: false
