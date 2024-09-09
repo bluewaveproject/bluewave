@@ -4,7 +4,7 @@ Blue Wave is an Arch-based Linux distribusion, with the sole focus of making Lin
 NOTES:
 
 This repository basically has the entire source code for all the currently available Blue Wave versions. If you want to build the ISO yourself, then CD into the folder (the folder that was created when you git cloned it) and then do a mkarchiso -v (whatever version you want). But note, you need to have archiso installed to do this. 
-Go to https://gitlab.com/bluewaveproject/bluewave/-/wikis to read the wiki/guide. It has the info you need before installing.
+
 
 contains some code from arch linux gui so thanks to them. their github is this: https://github.com/arch-linux-gui
 
