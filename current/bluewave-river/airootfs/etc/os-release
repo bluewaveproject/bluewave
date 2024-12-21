@@ -1,0 +1,8 @@
+NAME="Blue Wave River"
+PRETTY_NAME="Blue Wave River"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/bluewaveproject/bluewave/"
+BUG_REPORT_URL="https://github.com/bluewaveproject/bluewave/issues/"
+LOGO=bluewave-logo

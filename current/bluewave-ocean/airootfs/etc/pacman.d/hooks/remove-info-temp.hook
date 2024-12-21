@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+When = PreTransaction
+Description = Removing lsb-release just incase...
+Exec = /usr/bin/rm /etc/lsb-release 

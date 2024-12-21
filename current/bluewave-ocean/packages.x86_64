@@ -44,10 +44,9 @@ irssi
 iw
 iwd
 jfsutils
-kitty-terminfo
+# kitty-terminfo
 ldns
 less
-lftp
 libfido2
 libusb-compat
 linux-zen
@@ -90,7 +89,6 @@ pcsclite
 ppp
 pptpclient
 pv
-refind
 reflector
 reiserfsprogs
 rp-pppoe
@@ -115,7 +113,6 @@ udftools
 usb_modeswitch
 usbmuxd
 usbutils
-vim
 vpnc
 wireless-regdb
 wireless_tools
@@ -132,17 +129,27 @@ zsh
 #gnome
 plasma-desktop
 plasma-thunderbolt
-ulauncher
+plasma-browser-integration
+#ulauncher
 #latte-dock
 #picom
+plymouth-kcm
 gtk2
 gtk3
+powerdevil
+plasma-workspace-wallpapers
+plasma5-integration
+kweather
+kinfocenter
 gtk4
 volantes-cursors
-sddm-sugar-candy
+kdeconnect
+merkuro
+kgamma
+kclock
 
 #Package managers
-octopi
+pamac
 pacman
 paru
 
@@ -151,6 +158,7 @@ paru
 
 #Display manager
 sddm
+sddm-kcm
 sddm-sugar-candy-git
 
 #Kernel
@@ -169,16 +177,25 @@ xf86-video-intel
 xf86-video-vesa
 xf86-video-fbdev
 xf86-video-nouveau
-xf86-input-elographics
+# xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
 mesa
 mesa-utils
-amdvlk
+vulkan-radeon
+intel-media-driver
+intel-gpu-tools
+lib32-vulkan-radeon
 vulkan-nouveau
+vulkan-intel
+lib32-vulkan-intel
 
 #More preinstalled packages for Blue Wave
 kate
+glibc
+kcmutils
+lib32-glibc
+kde-gtk-config
 xorg
 xorg-xinit
 xorg-server
@@ -189,14 +206,14 @@ seahorse
 gvfs
 grub-btrfs
 os-prober-btrfs
-gparted
+partitionmanager
 brave-bin
 appimagelauncher
 konsole
 fish
 motivate
 noto-fonts-emoji
-onlyoffice-bin
+libreoffice-fresh
 fakeroot
 cmake
 plasma-systemmonitor
@@ -212,7 +229,6 @@ pipewire-pulse
 pavucontrol
 gcc
 make
-font-manager
 ncurses
 networkmanager
 dkms
@@ -220,15 +236,13 @@ ark
 elisa
 tar
 zip
-pcmanfm-qt
+dolphin
 kcalc
 bluefetch
 plymouth
 plymouth-theme-liquid-git
 archlinux-appstream-data
 noto-fonts-cjk
-ttf-baekmuk
-otf-ipafont
 ttf-hannom
 ttf-khmer
 inter-font
@@ -237,10 +251,7 @@ btop
 mpv
 syssnd
 mesa
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-smb
+kio-fuse
 mtpfs
 xdg-user-dirs
 xdg-desktop-portal-kde
@@ -249,15 +260,14 @@ ntp
 noto-fonts
 timeshift
 ast-firmware
-apfsprogs-git
-linux-apfs-rw-dkms-git
-qemu-guest-agent
+linux-apfs-rw-dkms
+apfsprogs
+#qemu-guest-agent
 #mkinitcpio-firmware
 chaotic-keyring
 chaotic-mirrorlist
 smartmontools
 timeshift-autosnap
-adriconf
 apparmor
 plasma-pa
 plasma-nm
@@ -265,11 +275,20 @@ plasma-vault
 tpm2-tools
 tpm2-tss
 kamoso
+noto-color-emoji-fontconfig
+noto-fonts-emoji-flag-git
+plasma-firewall
+firewalld
+fwupd
+fwupd-efi
+kscreen
+linux-api-headers
+spectacle
+gwenview
 
 #Themes and configs
 fluent-icon-theme-git
 nordic-darker-theme
-everforest-gtk-theme-git
 #bluewave-ocean-cfg
 
 #Things for NVIDIA

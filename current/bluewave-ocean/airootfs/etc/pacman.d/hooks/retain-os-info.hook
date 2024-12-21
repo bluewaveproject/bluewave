@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+When = PostTransaction
+Description = Making sure the OS Info stays intact...
+Exec = /usr/bin/cp /etc/.ohlookasecret/lsb-release /etc/lsb-release 
