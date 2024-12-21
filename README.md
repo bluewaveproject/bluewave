@@ -17,4 +17,4 @@ Made in The Philippines 🇵🇭
 
 Download link to ISOs:
 
-Current: https://icedrive.net/s/Vyt5zf7TGvVh6wRRZjWB1WzG9ia9
+Current: https://drive.google.com/drive/folders/1HjTh7jfTKkWAV_sl1srfnE7xRAinjKzx?usp=sharing
