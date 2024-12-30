@@ -136,6 +136,7 @@ paru
 
 #Kernel additions
 linux-lts-headers
+linux-apfs-rw-dkms
 
 #Wine API
 wine-stable
@@ -154,6 +155,7 @@ xf86-input-synaptics
 #More preinstalled packages for Blue Wave
 abiword
 xorg
+apfsprogs-git
 mousepad
 xorg-xinit
 xorg-server
@@ -221,8 +223,6 @@ timeshift-autosnap
 arandr
 plymouth-theme-liquid-git
 plymouth
-cpupower
-cpupower-gui
 gnumeric
 adriconf
 ufw

@@ -14,15 +14,31 @@ You might think that the only way to install packages/software is to do so from 
 Well the answer is a no. Blue Wave Ocean provides Pamac by default.
 It is used to install, upgrade, remove packages. Think of it as something similar to the Microsoft Store or Apple's App Store.
 
--- SECTION 3: NVIDIA DRIVERS --
+-- SECTION 3A: NVIDIA DRIVERS --
 Ah yes, NVIDIA. The company known for having bad drivers on Linux.
 KDE can lag at times. Although rather annoying, this is the norm.
 Best thing that you can do is wait for an update that miraculously fixes these issues.
 
--- SECTION 4: USING EXT4 OR XFS AS THE DEFAULT FILESYSTEM --
+-- SECTION 3B: INTEL ARC DRIVERS --
+I am not sure on how Intel Arc drivers would perform on Blue Wave, as I do not own any Intel GPUs.
+So do be wary of using it too. But if it works just fine, you're good to go.
+
+-- SECTION 4: WHAT IS DOAS? --
+Doas is an alternative to sudo. But why is it used in the first place?
+Because it is more secure and more simpler, while providing the exact same use. 
+Executing sudo will automatically make you use doas.
+
+-- SECTION 5: USING EXT4 OR XFS AS THE DEFAULT FILESYSTEM --
 This would be a rare occurence because anyone doing the installation process would just stick to the default filesystem.
 But for users who didn't wouldn't really notice that much of a difference aside from automatic snapshots not working before updating.
 Although are still free to use EXT4 or XFS if you really want to.
+
+-- SECTION 6: REPAIRING BLUE WAVE --
+How do you repair it? It's simple.
+Snapshots are created manually via Timeshift or automatically via. updating the system.
+Do you remember the "GRUB" menu? You'll need that.
+An entry will be made in GRUB whenever you have snapshots. Those snapshots can be booted into in order to restore the system to the previous state.
+Do take note that if you upgraded in order to make one, run the command "doas rm /var/lib/pacman/db.lck" in order to enable pacman again.
 
 -- END --
 Well, that's all you really need to know. Again, thank you for choosing Blue Wave.
